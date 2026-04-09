@@ -1,0 +1,64 @@
+---
+title: "UW RSE Nexus: Crowdsourced Research Software Engineer Resources"
+order: 1
+listing:
+  type: grid
+  sort-ui: false
+  sort:
+    - "date desc"
+    #- "title asc" #desc
+  image-height: 150px
+  image-placeholder: "images/vincent-van-zalinge-mDohQISBnCk-unsplash.jpg"
+  fields: [author, date, image, title, description, categories]
+  categories: true
+  date-format: "YYYY-MM-DD"
+  page-size: 6
+  contents:
+    - "Learn/*/**/*.qmd"
+    - "!Learn/**/index.qmd" # index files should not be listed as tiles (represent pages for resource filters)
+    - "!Learn/*/**/*.ipynb"
+    - "Toolbox/*/**/*.qmd"
+    - "Toolbox/GenAI/GenAI-at-UW-Madison.qmd"
+    - "!Toolbox/**/index.qmd" # index files should not be listed as tiles (represent pages for resource filters)
+    - "Applications/Blogs/**/*.qmd"
+    - "!Applications/Blogs/index.qmd"
+    - "Applications/EDA/**/*.qmd"
+    - "!Applications/EDA/index.qmd"
+    - "Applications/Videos/Other/**/*.qmd"
+    - "!Applications/Videos/Other/index.qmd"
+    - "Applications/Videos/ML4MI/**/*.qmd"
+    - "!Applications/Videos/ML4MI/index.qmd"
+
+    - "Applications/Videos/Exploring-AI-at-UW/**/*.qmd"
+    - "!Applications/Videos/Exploring-AI-at-UW/index.qmd"
+
+    - "Applications/Videos/Forums/**/*.qmd"
+    - "!Applications/Videos/Forums/index.qmd"
+    - "!Applications/Videos/Forums/mlx_2024-04-09.qmd" # breaking pagination for some reason
+    - "!Applications/Videos/Forums/mlx_2023-11-07.qmd" # breaking pagination for some reason
+
+#    - "Applications/Videos/Forums/mlx_2025-02-10.qmd" 
+#    - "Applications/Videos/Forums/mlx_2024-11-05.qmd"
+#    - "Applications/Videos/Forums/mlx_2024-05-11.qmd"
+#    - "Applications/Videos/Forums/mlx_2024-03-12.qmd"
+#    - "Applications/Videos/Forums/mlx_2024-02-13.qmd"
+#    - "Applications/Videos/Forums/mlx_2023-12-12.qmd"
+#    - "Applications/Videos/Forums/mlx_2023-10-10.qmd" 
+#    - "Applications/Videos/Forums/mlx_2023-09-19.qmd" 
+
+toc: false
+toc-location: body
+page-layout: full
+title-block-banner: false
+---
+
+More than just a repository of content from across the internet, UW RSE Nexus is a curated, community-driven platform that captures the collective knowledge and experiences of [UW RSE](https://datascience.wisc.edu/ml-community/) (and the broader UW campus). It serves as a growing knowledge hub—preserving past discussions, highlighting widely used tools and datasets, and evolving alongside our community's needs.
+
+### What kinds of resources are hosted on Nexus?
+{{< include includes/common-resources-text.qmd >}}
+
+### Share your knowledge on Nexus!  
+This site is powered by contributions from Research Software Engineers. If you've found a tool, tutorial, dataset, or strategy that's helped you in your Research Software Engineering work, consider adding it to Nexus so others can benefit too. Learn more on our [How to contribute](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/How-to-contribute.html). page.
+
+### Explore resources
+To narrow down your search, select one of the general category groupings from the left sidebar (e.g.,  [Learn](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/), [Applications](https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/), [Toolbox](https://uw-madison-datascience.github.io/ML-X-Nexus/Toolbox/)). You can also select one of the category tags on the right sidebar to filter resources. Visit the [Category glossary](https://uw-madison-datascience.github.io/ML-X-Nexus/glossary.html) if you are unsure about the meaning of any of these tags.

@@ -1,0 +1,12 @@
+*.quarto*
+_site
+_freeze
+# Ignore IDE files
+## For R
+**/.Rhistory
+/insights/.ipynb_checkpoints
+/insights/anaconda_projects
+/insights/.virtual_documents
+## For Pycharm
+**/.idea/
+/.quarto/

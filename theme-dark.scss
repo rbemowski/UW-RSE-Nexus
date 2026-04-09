@@ -1,0 +1,30 @@
+/*-- scss:defaults --*/
+
+// Our brand colors
+$mlx-red: #c5050c;
+$mlx-crimson: #9b0000;
+$mlx-frost: #dadfe1;
+$mlx-slate: #646569;
+$mlx-black: #282728;
+$mlx-white: #f7f7f7;
+$mlx-data-whisper: #bbd7db;
+$mlx-bayes-breeze: #7fb7be;
+$mlx-aqua-cortex: #1a535c;
+$mlx-graphite: #494949;
+// Palette extended accent brand colors
+$mlx-yellow: #eac435;
+
+// Theme-wide colors
+$primary: $mlx-red;
+$light: $mlx-graphite;// $mlx-black; //#000000;  //$mlx-aqua-cortex; 
+
+// Base document colors
+$body-bg: #000000; // $mlx-graphite; //   $mlx-black;
+$body-color: white;
+$link-color: $mlx-bayes-breeze; // #ff474d; // #ff6b70;// #ff474d; // #e09193 // $mlx-bayes-breeze;
+
+// Code blocks
+//$code-block-bg-alpha: -.8;
+$code-block-bg: $mlx-aqua-cortex;
+$code-bg: $mlx-aqua-cortex;
+$code-color: $mlx-yellow;
