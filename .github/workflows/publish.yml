@@ -1,0 +1,58 @@
+# -------------------------------------------------------------------------------------
+# GitHub Actions Workflow: Build and Publish Quarto Site
+# -------------------------------------------------------------------------------------
+# This workflow does the following:
+# 1. Renders and publishes a Quarto site to GitHub Pages
+# 2. Runs a script to save GitHub repo insights (e.g., contributors, commit data)
+# 3. Commits and pushes any changes made by the script
+#
+# It runs on:
+# - Pushes to the `main` branch
+# - Manual runs from the GitHub UI (workflow_dispatch)
+# -------------------------------------------------------------------------------------
+
+on:
+  workflow_dispatch:  # Allow manual execution from the GitHub UI
+  push:
+    branches: main    # Automatically run on pushes to the main branch
+
+name: Quarto Publish  # Display name for the workflow
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest  # GitHub-hosted Ubuntu runner with common tools pre-installed
+
+    permissions:
+      contents: write        # Needed to commit and push changes to the repo
+
+    steps:
+      # Step 1: Pull down the repository code
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python environment (for running the insights script)
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      # Step 3: Install Python dependencies
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install pandas numpy matplotlib seaborn scikit-learn \
+                      scipy statsmodels jupyter nbformat missingno
+
+      # Step 4: Install the Quarto CLI
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # Step 5: Render and publish the Quarto site to GitHub Pages
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          # GITHUB_TOKEN is automatically provided and scoped to this repo.
+          # It’s sufficient for publishing and pushing to GitHub Pages.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
