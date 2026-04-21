@@ -22,7 +22,7 @@ website:
     align: center
     style: "docked"
     search: true
-    collapse-level: 2
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: Home
@@ -30,8 +30,8 @@ website:
       - href: Learn/Guides/How-to-contribute.qmd
         text: "How to contribute?" 
 
-      - text: "Learn"
-        href: Learn/index.qmd 
+      - section: "Learn"
+        href: Learn/index.qmd
         contents:
           - text: "Blogs"
             href: Learn/Blogs/index.qmd
