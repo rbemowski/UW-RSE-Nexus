@@ -52,16 +52,10 @@ Include links to related materials or further readings that can enhance the user
 Please see below for a list of resources that meet our platform's standards. You can use these examples in conjunction with the template files provided in the next section to create your post. You can click "Improve this page" near the top right of each resource page to view the corresponding quarto file (.qmd) and code, or find the file in the [GitHub repo](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus).
 
 #### External content
-- [Learn: Workshop](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Workshops/Intro-Deeplearning_Keras.html)
-- [Learn: Book](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Books/Intro-Deeplearning_SimonJDPrince.html)
-- [Learn: Video](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Videos/Grokking.html)
-- [Application: Video](https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/Videos/Other/CrossLabsAI-CrossRoads45-METL-Biophysics-based-Protein-Language-Model.html)
-- [Toolbox: Data](https://uw-madison-datascience.github.io/ML-X-Nexus/Toolbox/Data/Gutenberg.html)
+
 
 #### Original content
-- [Learn: Guide](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/Github-desktop.html)
-- [Learn: Notebook](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Notebooks/2025-05-07_RAG-Romeo-Juliet.html)
-- [Application: Blog](https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/Blogs/blog-music-identification.html)
+- [Knowledge Base: Guide](/KB/Guides/Github-desktop.qmd)
 
 ## How to make a new post with GitHub?
 ### Prerequisites
@@ -71,11 +65,12 @@ You do not necessarily need specific training in anything, but you will need to 
 - A GitHub account and some familiarity with GitHub (Fork, Issues, Pull Request)
 
 ### GitHub collaboration model
-We follow GitHub's collaboration model, so the general idea to make a post or edit a document is the same. The high-level steps include :
+We follow GitHub's collaboration model, so the general idea to make a post or edit a document is the same.
+The high-level steps include :
 
 1. Get started with git and GitHub
 2. Create an issue announcing your plan to add a resource — see [UW RSE Nexus Issues](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues)
-3. Fork the [UW RSE-Nexus repository](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus)
+3. Fork the [UW RSE Nexus repository](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus)
 4. Clone the forked repository onto your local machine
 5. Create a new branch
 6. Write the post
@@ -84,17 +79,24 @@ We follow GitHub's collaboration model, so the general idea to make a post or ed
 8. Make a pull request
 9. Wait for review
 
-If you don't know how to use Git / GitHub already, it can be a little intimidating at first. A friendlier alternative could be to [download GitHub desktop](https://desktop.github.com/) and add your post using the instructions provided below. If you'd like to learn more about GitHub Desktop, check out the [Version Control with GitHub Desktop](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/Github-desktop.html) guide on Nexus. If you need additional help (and work in a research lab at UW-Madison), you may also seek help at the Data Science Hub's [office hours ("Coding Meetup")](https://datascience.wisc.edu/hub/#dropin).
+If you don't know how to use Git / GitHub already, it can be a little intimidating at first. A friendlier 
+alternative could be to [download GitHub desktop](https://desktop.github.com/) and add your post using the instructions provided below. 
+If you'd like to learn more about GitHub Desktop, check out the [Version Control with GitHub Desktop](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/Github-desktop.html) guide 
+on Nexus. If you need additional help (and work in a research lab at UW-Madison), you may also seek help at the 
+Data Science Hub's [office hours ("Coding Meetup")](https://datascience.wisc.edu/hub/#dropin).
 
 #### 1. Get Started with GitHub Desktop (recommended if you're new to Git and GitHub)
 
-1. Go to the [GitHub Desktop website](https://github.com/apps/desktop) and download the application for your operating system. Install GitHub Desktop by following the on-screen instructions.
-2. Open GitHub Desktop and sign in with your GitHub account. If you don't have one, you will need to [create your GitHub account](https://github.com/join) first.
+1. Go to the [GitHub Desktop website](https://github.com/apps/desktop) and download the application for your 
+operating system. Install GitHub Desktop by following the on-screen instructions.
+2. Open GitHub Desktop and sign in with your GitHub account. If you don't have one, you will need to 
+[create your GitHub account](https://github.com/join) first.
 
 #### 2. Create an Issue on Nexus GitHub
-Before you start writing your content, create an issue on the Nexus GitHub to announce your intended addition. This helps the Nexus development team keep track of new contributions and provides an opportunity for feedback.
+Before you start writing your content, create an issue on the Nexus GitHub to announce your intended addition. 
+This helps the Nexus development team keep track of new contributions and provides an opportunity for feedback.
 
-1. Go to the  [Nexus GitHub Issues](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues) page
+1. Go to the [UW RSE Nexus GitHub Issues](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues) page
 2. Click on the `New Issue` button.
 3. Title the issue with the name of your resource, and add a “Resource” label/tag (found on right side panel of issue post).
 4. Describe why you think this resource should be included on the Nexus platform.
@@ -105,7 +107,7 @@ The purpose of a Fork is to create a copy of the original repository that can be
 the original repository will not allow you to make edits directly. Instead, you will update your Fork and then ask the
 original repository owners to integrate your changes through a Pull Request (PR), which you will do in step 8.
 
-1. Go to the [UW RSE-Nexus repository](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus) on GitHub.
+1. Go to the [UW RSE Nexus repository](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus) on GitHub.
 2.  Click the `Fork` button at the top-right corner of the page.
     - This will create a copy of the repository under your GitHub account.
     - You will now be able to make changes to your Forked copy of the repository.
@@ -133,42 +135,28 @@ content (links below) into the desired folder and editing it to reflect the cont
 2. Write your post in the appropriate format. Follow the guidelines below, making use the template files provided.
 
 #### Resource templates
-If applicable, start with one of the relevant template files linked below. There are comments in each template that will help you make the appropriate edits for your resource. You can also check out how other posts have been formatted by clicking "Improve this page" from a given post's webpage. This will bring you directly to the qmd file for that post.
+If applicable, start with one of the relevant template files linked below. There are comments in each template that
+will help you make the appropriate edits for your resource. You can also check out how other posts have been formatted 
+by clicking "Improve this page" from a given post's webpage. This will bring you directly to the qmd file for that post.
 
-- [Educational - blog](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-book.qmd)
-- [Educational - book](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-bookp.qmd)
-- [Educational - video](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-video.qmd): lectures, forums, seminars, etc.
-- [Educational - workshop](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_learn-workshop.qmd)
-
-
-- [Application - blog](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_application-blog.qmd)
-- [Application - video](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_application-video.qmd)
-
-- [Toolbox - data](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_toolbox-data.qmd)
-- [Toolbox - model](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_toolbox-model.qmd)
-- [Toolbox - library](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_toolbox-library.qmd)
+- [Knowledge Base - Presentation](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_kb_presenation.qmd)
+- [Project](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/blob/main/Contributor-templates/template_project.qmd)
 
 #### Where to place your resource qmd file
-We want the site to be constantly evolving with the community, and our intention is to keep the contributions to the site as free as possible. However, we added some sections to structure the site a little bit:
+We want the site to be constantly evolving with the community, and our intention is to keep the contributions to 
+the site as free as possible. However, we added some sections to structure the site a little bit:
 
 ```txt
 
-├── Learn
-│   ├── Blogs
-│   ├── Books
+├── Knowledge Base
+│   ├── Presentations
+│   ├── Resources
 │   ├── Guides
-│   ├── Notebooks
-│   ├── Videos
-│   ├── Workshops
-├── Toolbox
-│   ├── Compute
-│   ├── Data 
-│   ├── GenAI 
-│   ├── Libraries 
-│   ├── Models 
+├── Projects
 ```
-**Note**: Some subfolders may not exist yet (e.g., Code, Data) since no one has contributed a resource from one of those categories yet, and git doesn't allow empty folders. If your resource doesn't belong to one of the categories listed above, you may add a new one. We'll discuss this new category when we review your initial "Issue" announcing the resource addition.
-
+**Note**: If you think your resource does not fit into one of these areas, we have the power to expand. Create an 
+[issue](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/issues) on the [UW RSE Nexus GitHub](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus). 
+From there we can discuss and adjust.
 
 ##### How to preview new content
 It is possible to preview the page you are creating on your local machine before you make the pull request, or even
@@ -235,10 +223,10 @@ Want to add a code-along exercise to an existing post, add your perspective, or 
 
 Congratulations! You have suggested an improvement to a Nexus post. The repository maintainers will review your pull request, and if everything looks good, your changes will be merged into the post.
 
-**Note:** While you can make these edits directly on GitHub without any software installation, we recommend all ML practitioners learn git! [Check out our git category search resources](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/#category=Git/GitHub).
+**Note:** While you can make these edits directly on GitHub without any software installation, we recommend all ML practitioners learn git! [Check out our guide on intro to git](/KB/Guides/Intro-git-github.qmd).
 
 ## Questions?
-If you any lingering questions on how to contribute, please feel free to post to the [Nexus Q&A](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a) on GitHub. We will improve this guide based on additional questions/comments we receive.
+If you any lingering questions on how to contribute, please feel free to post to the [UW RSE Nexus Q&A](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus/discussions/categories/q-a) on GitHub. We will improve this guide based on additional questions/comments we receive.
 
 
 

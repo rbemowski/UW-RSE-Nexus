@@ -18,3 +18,5 @@ toc-location: body
 page-layout: full
 title-block-banner: false
 ---
+
+Explore helpful guides for software, packages, and other Research Software Engineering tools.

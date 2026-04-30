@@ -1,5 +1,5 @@
 ---
-title: "Learn"
+title: "UW RSE Knowledge Base"
 listing:
   type: grid
   sort-ui: false
@@ -12,12 +12,11 @@ listing:
   fields: [image, date, title, description, categories, author]
   categories: true
   date-format: "YYYY-MM-DD"
+
   page-size: 6
   contents:
     - "./**/*.qmd"
     - "!./**/index.qmd"
-    - "!./**/*.ipynb"
-    - "../Applications/Videos/Forums/mlx_2025-02-10.qmd"
 
 
 toc: false
@@ -25,4 +24,5 @@ toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore a library of educational materials (workshops, guides, books, videos, etc.) covering a wide range of ML-related topics, tools, and workflows. From foundational concepts to advanced techniques, these materials offer clear explanations, practical examples, and actionable insights to help you navigate the complexities of ML with confidence.
+Explore previous UW RSE community presentations, projects and other resources. Feel free to [contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html) if you have
+something related to share.

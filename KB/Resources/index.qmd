@@ -1,5 +1,5 @@
 ---
-title: "Compute"
+title: "Resources"
 listing:
   type: grid
   sort-ui: false
@@ -12,10 +12,11 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
-    - "../../Learn/Workshops/Intro-Amazon_SageMaker.qmd"
+    
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore compute resources (high-throughput, GPUs, etc.) for your next ML project!
+Explore Research Software Engineering resources, on and off campus. If something is missing, please feel free to 
+[contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html).

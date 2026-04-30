@@ -4,9 +4,9 @@ project:
     - images/*
 
 website:
-  title: "Nexus: Crowdsourced ML Resources"
+  title: "UW RSE Nexus: The crowdsourced Research Software Engineering resource hub"
   page-navigation: true
-  
+
   repo-url: https://github.com/UW-Madison-DataScience/UW-RSE-Nexus
   repo-actions: [edit]
 
@@ -22,68 +22,26 @@ website:
     align: center
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 2
     contents:
       - href: index.qmd
-        text: Home
+        text: "Home"
 
-      - href: Learn/Guides/How-to-contribute.qmd
-        text: "How to contribute?" 
+      - href: KB/Guides/How-to-contribute.qmd
+        text: "How to contribute?"
 
-      - section: "Learn"
-        href: Learn/index.qmd
+      - section: "Knowledge Base"
+        href: KB/index.qmd
         contents:
-          - text: "Blogs"
-            href: Learn/Blogs/index.qmd
-          - text: "Books"
-            href: Learn/Books/index.qmd
+          - text: "Presentations"
+            href: KB/Presentations/index.qmd
+          - text: "Resources"
+            href: KB/Resources/index.qmd
           - text: "Guides"
-            href: Learn/Guides/index.qmd
-#          - text: "Notebooks"
-#            href: Learn/Notebooks/index.qmd
-#          - text: "Videos"
-#            href: Learn/Videos/index.qmd
-          - text: "Workshops"
-            href: Learn/Workshops/index.qmd
+            href: KB/Guides/index.qmd
 
-
-#      - text: "Toolbox"
-#        href: Toolbox/index.qmd
-#        contents:
-#          - text: "Compute"
-#            href: Toolbox/Compute/index.qmd
-#          - text: "Data"
-#            href: Toolbox/Data/index.qmd
-#          - text: "GenAI"
-#            href: Toolbox/GenAI/index.qmd
-#          - text: "Libraries"
-#            href: Toolbox/Libraries/index.qmd
-#          - text: "MLOps"
-#            href: Toolbox/MLOps/index.qmd
-#          - text: "Models"
-#            href: Toolbox/Models/index.qmd
-            
-#      - text: "Applications"
-#        href: Applications/index.qmd
-#        contents:
-#          - text: "Blogs"
-#            href: Applications/Blogs/index.qmd
-#          - text: "Videos"
-#            href: Applications/Videos/index.qmd
-#            contents:
-#            - text: "AI @ UW"
-#              href: Applications/Videos/Exploring-AI-at-UW/index.qmd
-#            - text: "UW RSE"
-#              href: Applications/Videos/Forums/index.qmd
-#            - text: "ML4MI"
-#              href: Applications/Videos/ML4MI/index.qmd
-#            - text: "SILO"
-#              href: Applications/Videos/SILO/index.qmd
-#            - text: "Other"
-#              href: Applications/Videos/Other/index.qmd
-
-      - href: glossary.qmd
-        text: "Category glossary"
+      - text: "Projects"
+        href: Projects/index.qmd
 
 format:
   html:

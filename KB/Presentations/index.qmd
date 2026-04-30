@@ -1,5 +1,5 @@
 ---
-title: "Videos"
+title: "Presentations"
 listing:
   type: grid
   sort-ui: false
@@ -12,10 +12,11 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
-    - "../../Applications/Videos/Forums/mlx_2025-02-10.qmd"
-
+    
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
+Explore past presentations given at UW RSE events. If you have an upcomming presentation or have already given one,
+feel free to [contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html).

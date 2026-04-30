@@ -1,5 +1,5 @@
 ---
-title: "Data"
+title: "Projects"
 listing:
   type: grid
   sort-ui: false
@@ -12,9 +12,12 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
+    
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore popular datasets that you can leverage for your next machine learning project.
+Explore projects created, managed, or loved by UW RSE community members. If you have a project to share or are looking
+for contributions, please feel free to [contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html) 
+a "Projects" page.
