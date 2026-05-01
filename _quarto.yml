@@ -14,7 +14,8 @@ website:
     tools:
       - icon: github
         href: https://github.com/UW-Madison-DataScience/UW-RSE-Nexus
-        text: "GitHub organization"
+        text: "GitHub repository"
+        target: _blank # Opens a new tab
     # logo: "images/UW-RSE_Logo_Secondary_Tagline_Transparent.png"
     logo: "images/UW-RSE_Logo_Secondary_Transparent.png"
 
@@ -45,6 +46,8 @@ website:
 
 format:
   html:
+    link-external-newwindow: true # Make it so external links open a new tab
+    link-external-icon: true # Make it so 'icon' in the yaml will also open a new tab
     theme:
       light: [cosmo, fonts.scss, theme.scss]
       #dark: [cosmo, fonts.scss, theme-dark.scss]
