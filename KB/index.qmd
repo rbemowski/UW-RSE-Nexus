@@ -24,5 +24,5 @@ toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore previous UW RSE community presentations, projects and other resources. Feel free to [contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html) if you have
+Explore previous UW RSE community presentations, projects and other resources. Feel free to [contribute](/KB/Guides/How-to-contribute.qmd) if you have
 something related to share.

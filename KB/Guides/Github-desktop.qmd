@@ -92,7 +92,11 @@ In this section, we will walk you through setting up a GitHub repository for a c
 
 
 ## Tracking changes
-Now that you have set up your collaborative Kaggle hackathon repository, it's time to start working on your project and track the changes you make. In this section, we will guide you through the process of adding files to your local repository, viewing and committing changes, and pushing those changes to the remote repository on GitHub. By understanding how to track changes effectively, you and your team can ensure that all contributions are recorded, reviewed, and integrated smoothly into the project.
+Now that you have set up your collaborative Kaggle hackathon repository, it's time to start working on your project 
+and track the changes you make. In this section, we will guide you through the process of adding files to your local
+repository, viewing and committing changes, and pushing those changes to the remote repository on GitHub. By
+understanding how to track changes effectively, you and your team can ensure that all contributions are recorded, 
+reviewed, and integrated smoothly into the project.
 
 1. **Add a blank text file to your local repo**
     1. Right-click repo name in GitHub Desktop → show in explorer (show in Finder and go to the directory on Mac)
@@ -110,7 +114,11 @@ Now that you have set up your collaborative Kaggle hackathon repository, it's ti
 
 
 ## Ignoring .ipynb files 
-As you collaborate on your Kaggle hackathon project, you may encounter challenges with tracking changes in Jupyter notebooks (.ipynb files) due to their complex JSON format. These files can include a lot of metadata that makes version control difficult and cluttered. In this section, we'll show you how to use Jupytext to convert your Jupyter notebooks into a more manageable format and configure your repository to ignore .ipynb files. This approach will help you maintain a cleaner version history and focus on the actual code changes, making collaboration more efficient.
+As you collaborate on your Kaggle hackathon project, you may encounter challenges with tracking changes in Jupyter 
+notebooks (.ipynb files) due to their complex JSON format. These files can include a lot of metadata that makes
+version control difficult and cluttered. In this section, we'll show you how to use Jupytext to convert your Jupyter 
+notebooks into a more manageable format and configure your repository to ignore .ipynb files. This approach will help 
+you maintain a cleaner version history and focus on the actual code changes, making collaboration more efficient.
 
 1. **Add jupyter lab file to repo**
     1. Open anaconda prompt and cd into your local repo folder
@@ -146,7 +154,11 @@ As your team collaborates on the Kaggle hackathon project, it's essential to sta
 
 
 ## Reverting to a previous commit
-During the course of your Kaggle hackathon project, there may be times when you need to revert to a previous version of your code. This could be due to a bug, an unwanted change, or simply the need to return to a stable state. In this section, we'll guide you through the process of reverting to a previous commit using GitHub Desktop. Understanding how to revert to an earlier commit ensures that you can quickly and safely undo changes, helping your team maintain a stable and functional codebase throughout the competition.
+During the course of your Kaggle hackathon project, there may be times when you need to revert to a previous version
+of your code. This could be due to a bug, an unwanted change, or simply the need to return to a stable state. In this
+section, we'll guide you through the process of reverting to a previous commit using GitHub Desktop. Understanding 
+how to revert to an earlier commit ensures that you can quickly and safely undo changes, helping your team maintain 
+a stable and functional codebase throughout the competition.
 
 1. **Find the Commit to Revert To**
     1. Open GitHub Desktop and navigate to the repository you are working on.

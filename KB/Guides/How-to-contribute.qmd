@@ -49,7 +49,10 @@ Ensure the resource is easy to access and use. We want the majority of resources
 Include links to related materials or further readings that can enhance the user’s understanding and provide more in-depth knowledge on the topic. This can include books, articles, other workshops, or case studies. When possible, link to any relevant materials which are already hosted on the Nexus platform.
 
 ### Examples of good posts
-Please see below for a list of resources that meet our platform's standards. You can use these examples in conjunction with the template files provided in the next section to create your post. You can click "Improve this page" near the top right of each resource page to view the corresponding quarto file (.qmd) and code, or find the file in the [GitHub repo](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus).
+Please see below for a list of resources that meet our platform's standards. You can use these examples in conjunction 
+with the template files provided in the next section to create your post. You can click "Improve this page" near the 
+top right of each resource page to view the corresponding quarto file (.qmd) and code, or find the file in the
+[GitHub repo](https://github.com/UW-Madison-DataScience/UW-RSE-Nexus).
 
 #### External content
 
@@ -81,7 +84,7 @@ The high-level steps include :
 
 If you don't know how to use Git / GitHub already, it can be a little intimidating at first. A friendlier 
 alternative could be to [download GitHub desktop](https://desktop.github.com/) and add your post using the instructions provided below. 
-If you'd like to learn more about GitHub Desktop, check out the [Version Control with GitHub Desktop](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/Github-desktop.html) guide 
+If you'd like to learn more about GitHub Desktop, check out the [Version Control with GitHub Desktop](/KB/Guides/Github-desktop.qmd) guide 
 on Nexus. If you need additional help (and work in a research lab at UW-Madison), you may also seek help at the 
 Data Science Hub's [office hours ("Coding Meetup")](https://datascience.wisc.edu/hub/#dropin).
 

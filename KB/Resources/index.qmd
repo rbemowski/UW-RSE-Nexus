@@ -19,4 +19,4 @@ page-layout: full
 title-block-banner: false
 ---
 Explore Research Software Engineering resources, on and off campus. If something is missing, please feel free to 
-[contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html).
+[contribute](/KB/Guides/How-to-contribute.qmd).

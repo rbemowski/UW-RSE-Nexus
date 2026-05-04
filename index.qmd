@@ -43,5 +43,5 @@ study, you can proudly call yourself a Research Software Engineer.
 ### Share your knowledge on Nexus!  
 This site is powered by contributions from Research Software Engineers like you. If you have a project or other
 Research Software Engineering related resources to share, consider adding it to the UW RSE Nexus. Learn more on our
-[How to contribute](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html) page. 
+[How to contribute](/KB/Guides/How-to-contribute.qmd) page. 
 
