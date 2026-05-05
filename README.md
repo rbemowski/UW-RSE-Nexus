@@ -28,7 +28,7 @@ are highly valued and appreciated.
 
 To contribute, fork this repository, make your changes, and submit a pull request. Please ensure that your 
 contributions adhere to our guidelines and maintain the high standards of quality and relevance upheld by the 
-UW RSE community. For further guidance and starter templates, please check the [How to Contribute?](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/Guides/How-to-contribute.html) guide. 
+UW RSE community. For further guidance and starter templates, please check the [How to Contribute?](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/Guides/How-to-contribute.html) guide. 
 
 ## Let's Connect:
 
