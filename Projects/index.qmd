@@ -1,5 +1,5 @@
 ---
-title: "Compute"
+title: "Projects"
 listing:
   type: grid
   sort-ui: false
@@ -12,10 +12,12 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
-    - "../../Learn/Workshops/Intro-Amazon_SageMaker.qmd"
+    
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore compute resources (high-throughput, GPUs, etc.) for your next ML project!
+Explore projects created, managed, or loved by UW RSE community members. If you have a project to share or are looking
+for contributions, please feel free to [contribute](/KB/Guides/How-to-contribute.qmd) 
+a "Projects" page.

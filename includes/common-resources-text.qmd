@@ -1,9 +1,10 @@
-Any content (original or external) that can help improve research through Research Software Engineering practices.
+Any content (original or external) that can help Research Software Engineers in their learning journey. 
+There are two main areas:
 
-* 🧠 [**Educational materials**](https://uw-madison-datascience.github.io/ML-X-Nexus/Learn/): Explore a library of educational materials (workshops, books, videos, etc.) covering a wide range of ML-related topics, tools, and workflows, from foundational concepts to advanced techniques.
+[**Knowledge Base**](/KB/index.qmd): Previous UW RSE community 
+presentations, resources, and guides.
 
-* 🛠 [**Models, code, and more**](https://uw-madison-datascience.github.io/ML-X-Nexus/Toolbox/): Learn about popular models, tools, and datasets that you can leverage for your next ML project. 
-
-* 🧬 [**Applications & stories**](https://uw-madison-datascience.github.io/ML-X-Nexus/Applications/): Discover a curated collection of blogs, papers, and talks which dive into real-world ML applications and lessons learned by practitioners.
+[**Projects**](/Projects/index.qmd): Projects created, managed,
+and loved by UW RSE community members.
 
 **Disclaimer**: The crowdsourced resources on this website are not endorsed by the UW-Madison and have not been vetted by the Division of Information Technology.

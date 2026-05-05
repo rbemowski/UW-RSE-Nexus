@@ -1,5 +1,5 @@
 ---
-title: "Books"
+title: "Guides"
 listing:
   type: grid
   sort-ui: false
@@ -12,8 +12,11 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
+
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
+
+Explore helpful guides for software, packages, and other Research Software Engineering tools.

@@ -1,5 +1,5 @@
 ---
-title: "Libraries"
+title: "Presentations"
 listing:
   type: grid
   sort-ui: false
@@ -12,14 +12,11 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
-    - "../../Learn/Workshops/Intro-ML_Sklearn.qmd"
-    - "../../Learn/Workshops/Intro-Deeplearning_Keras.qmd"
-    - "../../Learn/Workshops/Intro-Deeplearning_PyTorch.qmd"
-    - "../Models/DeepForest.qmd"
-
+    
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore popular libraries and frameworks that you can leverage for your next AI/ML project. 
+Explore past presentations given at UW RSE events. If you have an upcomming presentation or have already given one,
+feel free to [contribute](/KB/Guides/How-to-contribute.qmd).

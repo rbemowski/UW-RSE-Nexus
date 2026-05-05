@@ -1,5 +1,5 @@
 ---
-title: "Data"
+title: "Resources"
 listing:
   type: grid
   sort-ui: false
@@ -12,9 +12,11 @@ listing:
   contents:
     - "./*.qmd"
     - "!./index.qmd"
+    
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
-Explore popular datasets that you can leverage for your next machine learning project.
+Explore Research Software Engineering resources, on and off campus. If something is missing, please feel free to 
+[contribute](/KB/Guides/How-to-contribute.qmd).
