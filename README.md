@@ -33,6 +33,6 @@ UW RSE community. For further guidance and starter templates, please check the [
 ## Let's Connect:
 
 Are you interested in Research Software Engineering at UW Madison? Join the 
-[UW RSE community email group](https://groups.google.com/a/g-groups.wisc.edu/g/uw-rse-community-of-practice){target="_blank"}.
+[UW RSE community email group](https://groups.google.com/a/g-groups.wisc.edu/g/uw-rse-community-of-practice).
 
 Happy learning and happy collaborating!
