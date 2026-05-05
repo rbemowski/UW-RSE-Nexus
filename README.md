@@ -1,6 +1,6 @@
 # UW RSE Community
 
-![UW RSE Banner](/images/UW-RSE_Logo_Secondary_Transparent.png | height=200px)
+![UW RSE Banner](/images/UW-RSE_Logo_Secondary_Transparent.png)
 
 Welcome to the GitHup repo for UW RSE Nexus! Nexus is the UW RSE community’s centralized hub for sharing Research
 Software Engineering (RSE) resources. Visit the [UW RSE website](https://hub.datascience.wisc.edu/communities/research-software-engineering-community/)
