@@ -12,13 +12,13 @@ to stay informed on upcoming community events!
 This platform serves as a centralized hub for individuals interested in advancing their knowledge and skills in 
 Research Software Engineering. Whether you're a student, researcher, or industry professional, you'll find a wealth 
 of curated resources tailored to various experience levels and areas of interest.  Visit the 
-[UW RSE Nexus website](/index.qmd) to begin exploring RSE resources.
+[UW RSE Nexus website](https://uw-madison-datascience.github.io/UW-RSE-Nexus/) to begin exploring RSE resources.
 
 ## Features:
 
-[**Knowledge Base**](/KB/index.qmd): Explore previous UW RSE community presentations, projects and other resources.
+[**Knowledge Base**](https://uw-madison-datascience.github.io/UW-RSE-Nexus/KB/): Explore previous UW RSE community presentations, projects and other resources.
 
-[**Projects**](/Projects/index.qmd): Explore projects created, managed and loved by UW RSE community members.
+[**Projects**](https://uw-madison-datascience.github.io/UW-RSE-Nexus/Projects/): Explore projects created, managed and loved by UW RSE community members.
 
 ## Contributing:
 
